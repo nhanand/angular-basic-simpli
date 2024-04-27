@@ -1,0 +1,154 @@
+Angular 
+=======
+
+characteristics of framework
+
+- structure 
+- set of rules
+- standard
+- best practices
+- foundation
+- bluepront
+- easy to manage
+- open for any changes
+
+use of angular 
+
+- it is a framework for building clinent application
+
+angular = html + css + javascript/typecript
+
+- single page application
+eg swiggy
+
+- clean structure of application
+- reusability
+
+react is a library
+
+installing angular cli
+-----------------------
+
+note run all theese in powershell
+
+prerequisite
+
+- node --version
+
+copy the path where node is installed in program files
+
+C:\Program Files\nodejs
+
+- go to env varibale and save the path ion sysyem varibale
+
+-npm -v
+
+installing angular
+------------------
+
+- npm install -g @angular/cli  //to install angilar
+
+-ng version  
+
+------------------angular installed-----------------
+
+command to create ANGULAR PROJECT
+
+- ng new AngularDemoProject --no-standalone
+- CSS AND server side rendering yes
+
+project will installed
+
+- go to project by cd project_name
+
+- ng serve // to open server
+
+- copy the local url in your browser and paste it in chrome to check angular is running or not.
+
+===================================================
+
+component - where ur data. html component and logic is there.
+
+component like "cource"
+
+manually---
+
+1.create component.
+2.register it in module.
+3.add an element in html markup.
+
+===================================================
+
+                        STEP1 - create component cource.component.ts
+                       --------
+
+app 
+cretae component by 
+name - courses.component.ts
+
+==========================================
+
+selector 
+
+ <input id="courses">  #courses is the selector
+or 
+<h2>courses</h2> courses is thye selector
+
+==============================================
+
+                step2  - register it in module in app.module.ts
+               -------
+===================================================================
+
+step 2 - app.component.html
+
+in this file clear everthing and add your own file.
+
+===================================================================
+
+             another method
+             -----------------
+
+create component by angular cli
+
+ng g c course
+
+===================================================
+
+
+diff b/w let and var
+
+function varExample() {
+  // Scope is Outside of code block
+  console.log(x)
+  var x = 10
+  console.log(x)
+}
+varExample()
+
+//Let
+
+function letExample() {
+  // Only block scope
+  console.log(y)
+  let y = 20
+  console.log(y)
+}
+
+letExample()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
